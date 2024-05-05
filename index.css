@@ -1,0 +1,289 @@
+
+.header{
+    background-image: url("resources/images/banner3.png");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.bigImage2{
+    background-image: url("resources/images/banner3.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+} 
+
+.bigImage3{
+    background-image: url("resources/images/banner3.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.bigImage4{
+    background-image: url("resources/images/banner3.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}   
+
+/* .gridGallery{ 
+    
+    height: 730px;
+    background-color: darkgrey;
+    font-size: 17px;
+    width: 100%;
+} */
+
+.paragraph2{
+    
+    min-height: 800px;
+    background-color: darkgrey;
+    font-size: 35px;
+    max-width: 100%;
+    font-family : Helvetica,;
+    color:white;    
+}
+
+.paragraph3 {
+    min-height: 800px;
+    background-color: darkgrey;
+    font-size: 35px;
+    max-width: 100%;
+    font-family : Helvetica,;
+    color:white;
+    
+}
+
+.paragraph4 {
+    height: 200px;
+    background-color: darkgrey;
+    font-size: 35px;
+    max-width: 100%;
+    font-family : Helvetica,;
+    color:white;
+    display: flex;
+  align-items: center;
+  justify-content: center;;
+    
+}
+
+.copyright {
+    font-size: 100%;
+    text-align: right;
+    background-color: darkgrey;
+}
+
+.navigation-bar .menu-bar{
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    box-shadow: 1px 2px 4px lightslategray;    
+    background: darkgrey;
+    height: 50px;
+}
+
+.menu-bar li 
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+    margin: 10px 20px;
+    font-size: 25px;
+    font-family: Calibri;
+    cursor: pointer;
+    font-weight: bold;     
+}
+
+.menu-bar li:hover {
+    background: rgb(95, 94, 94);
+    color: white;
+    
+}
+
+.gridGallery{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% 25% 25% 25%; 
+    height: 850px;
+    background-color: darkgrey;
+    font-size: 17px;
+}
+
+.gridItem{
+    background: lightgray;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+    width: 78%;
+    height: 250px;
+    margin: 1%;    
+    transition: all, 0.3s, ease;
+
+
+}
+.subtitle { 
+    margin-left: 10px;
+    text-align: center;
+    text-align: center;
+    padding: 15px 8px;
+    margin: 0;
+    font-family: Calibri;
+    background-color: lightgray 
+}
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 100px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+    background-color: darkgrey;
+    font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+
+.menuLink:link {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+    margin: 10px 20px;
+    font-size: 25px;
+    font-family: Calibri;
+    cursor: pointer;
+    font-weight: bold;
+}
+    
+    
+.menuLink:visited { 
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+    margin: 10px 20px;
+    font-size: 25px;
+    font-family: Calibri;
+    cursor: pointer;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+}
+        
+    
+.menuLink:hover { 
+    background: rgb(95, 94, 94);
+    color: white;
+}
+
+.menuLink:hover, .menuLink:visited, .menuLink:link, .menuLink:active {
+    text-decoration: none!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}  
+        
+html {
+    scroll-behavior:smooth
+}
+
+p{
+    text-indent: 1cm;
+    margin-block-start: 0px
+}
+ 
+  .chart {
+    display: table;
+    table-layout: fixed;
+    width: 60%;
+    max-width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1) 2%, rgba(0, 0, 0, 0) 2%);
+    background-size: 100% 50px;
+    background-position: left top;
+  }
+  .chart li {
+    position: relative;
+    display: table-cell;
+    vertical-align: bottom;
+    height: 200px;
+  }
+  .chart span {
+    margin: 0 1em;
+    display: block;
+    background: rgba(209, 236, 250, 0.75);
+    animation: draw 1s ease-in-out;
+  }
+  .chart span:before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    padding: 5px 1em 0;
+    display: block;
+    text-align: center;
+    content: attr(title);
+    word-wrap: break-word;
+  }
+  
+  @keyframes draw {
+    0% {
+      height: 0;
+    }
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .body{
+    min-width: 800px;
+    max-width: 1526px;
+  }
+
+  .div{
+    min-width: 800px;
+    max-width: 1526px;
+  } 
